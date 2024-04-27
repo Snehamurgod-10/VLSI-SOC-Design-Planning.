@@ -75,7 +75,7 @@ openlane
 ├── report_generation_wrapper.py  
 ├── run_designs.py  
 └── scripts  
-###For Demonstration of tools, we have choosen the picorv32a project.Below are the contents of the picrorv32a.  
+###For Demonstration of tools, we have choosen the picorv32a project.Below are the contents of the picrorv32a.   
 
 picorv32a  
 .  
@@ -89,5 +89,17 @@ picorv32a
 └── src  
     ├── picorv32a.sdc  
     └── picorv32a.v  
-###This config.tlc file contains every details about the design. for example, details about enrollment, clock period, clock period port etc.The setting in the config.tcl has higher precedence compared to the default canfigurations. These settings will override the default settings of the openlane.  </a>
+###This config.tlc file contains every details about the design. for example, details about enrollment, clock period, clock period port etc.The setting in the config.tcl has higher precedence compared to the default canfigurations. These settings will override the default settings of the openlane.  
+#Design Preparation Step:  
+###To access the openlane tool first we have to change the directory to the `/<path to openlane_working_dir>/openlane`, we can access the files . In this folder we have to type  
+$  docker  
+$ ./flow.tcl --interactive  
+###Here we are using -`-interactive` , because we are manually running every tool by overselves.If we just execute `./flow.tcl` The entire process from RTL to GDS will we completed.  
+###we need add the required packages , the below command does that.  
+$package require openlane 0.9  
+###before running the synthesis , we have to prep the design.  
+$ prep -design picorv32a  
+###Result for the above command.  
+
+
 
