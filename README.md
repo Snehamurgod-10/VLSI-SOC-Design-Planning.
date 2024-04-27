@@ -48,3 +48,32 @@
 `pwd`  : Show the current directory.  
 `clear`: Clear the terminal.  
 `tree` :This command is used to print the hierarchy of the file system from the present directory.  </a>
+# Intro to OpenLane:<a name ="12">  
+### OpenLane is an automated RTLtoGDSII flow.  
+Here we are working in Sky130_fd_sc_hd PDK varient. where, "sky130" is process name or node name."fd" is a foundary name (skyWater foundary)."sc" means standerd cell librery files and the last one "hd" stands for high density(basically one type of varient).
+
+Sky130_fd_sc_hd varient contains many technology files like verilog, spice, techlef, meglef,mag,gds,cdl,lib,lef,etc. (techlef file contains the layer information).  
+</a>
+
+## Directory Structure of Openlane:  
+
+openlane  
+├── AUTHORS.md  
+├── clean_runs.tcl  
+├── configuration  
+├── conf.py  
+├── CONTRIBUTING.md  
+├── default.cvcrc  
+├── designs  
+├── docker_build  
+├── docs  
+├── flow.tcl  
+├── LICENSE  
+├── Makefile  
+├── README.md  
+├── regression_results  
+├── report_generation_wrapper.py  
+├── run_designs.py  
+└── scripts  
+
+##
