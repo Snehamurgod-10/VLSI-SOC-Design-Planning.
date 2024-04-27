@@ -42,9 +42,9 @@
 
 ## Get Familiar with Open-Source EDA Tools <a name ="11"> 
 ### Basic Bash Commands:  
-cd   : Change directory.  
-ls   : List all files.  
-mkdir: Make a directory.  
-pwd  : Show the current directory.  
-clear: Clear the terminal.  
-tree :This command is used to print the hierarchy of the file system from the present directory.  </a>
+`cd`   : Change directory.  
+`ls`   : List all files.  
+`mkdir`: Make a directory.  
+`pwd`  : Show the current directory.  
+`clear`: Clear the terminal.  
+`tree` :This command is used to print the hierarchy of the file system from the present directory.  </a>
