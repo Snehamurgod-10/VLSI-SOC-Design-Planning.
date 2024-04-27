@@ -75,5 +75,19 @@ openlane
 ├── report_generation_wrapper.py  
 ├── run_designs.py  
 └── scripts  
+###For Demonstration of tools, we have choosen the picorv32a project.Below are the contents of the picrorv32a.  
 
-##
+picorv32a  
+.  
+├── config.tcl  
+├── runs  
+├── sky130A_sky130_fd_sc_hd_config.tcl  
+├── sky130A_sky130_fd_sc_hdll_config.tcl  
+├── sky130A_sky130_fd_sc_hs_config.tcl  
+├── sky130A_sky130_fd_sc_ls_config.tcl  
+├── sky130A_sky130_fd_sc_ms_config.tcl  
+└── src  
+    ├── picorv32a.sdc  
+    └── picorv32a.v  
+###This config.tlc file contains every details about the design. for example, details about enrollment, clock period, clock period port etc.The setting in the config.tcl has higher precedence compared to the default canfigurations. These settings will override the default settings of the openlane.  </a>
+
