@@ -97,7 +97,7 @@ $ ./flow.tcl --interactive
 ###Here we are using -`-interactive` , because we are manually running every tool by overselves.If we just execute `./flow.tcl` The entire process from RTL to GDS will we completed.  
 
 ###we need add the required packages , the below command does that.  
-https://github.com/Snehamurgod-10/VLSI-SOC-Design-Planning./blob/main/1-1.png
+![1-1.png](https://github.com/Snehamurgod-10/VLSI-SOC-Design-Planning./blob/main/1-1.png)  
 $package require openlane 0.9  
 ###before running the synthesis , we have to prep the design.  
 $ prep -design picorv32a  
