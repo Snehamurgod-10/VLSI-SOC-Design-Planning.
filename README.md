@@ -101,7 +101,7 @@ $ ./flow.tcl --interactive
 $package require openlane 0.9  
 ###before running the synthesis , we have to prep the design.  
 $ prep -design picorv32a  
-![1-2.png](https://github.com/Snehamurgod-10/VLSI-SOC-Design-Planning./blob/main/README.md)  
+![1-2.png]()  
 ###Result for the above command.  
 
 
